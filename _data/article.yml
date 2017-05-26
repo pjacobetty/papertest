@@ -7,6 +7,11 @@ doi: # e.g. 10.1234/example.1
 github: # e.g. user-name/paper-now
 
 authors:
+  - &mcastells
+    id: "mcastells"
+    name: "Manuel Castells"
+    email: "castells@usc.edu"
+    
   - &pjacobetty
     id: "pjacobetty"
     name: "Pedro Jacobetty"
@@ -20,6 +25,12 @@ authors:
     #orcid: "0000-0002-9341-7985"
 
 affiliations:
+  - name: "USC Annenberg"
+    department: "School for Communication and Journalism"
+    location: "Los Angeles, California"
+    url: http://in3.uoc.edu
+    members:
+      - *pjacbetty
   - name: "Open University of Catalonia (UOC)"
     department: "Internet Interdisciplinary Institute (IN3)"
     location: "Barcelona, Spain"
