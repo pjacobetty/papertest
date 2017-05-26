@@ -2,13 +2,12 @@
 title: "Introduction"
 order: 2
 ---
-The background to the work.
+Democracy is changing in Europe. 
 
-This paragraph contains one species, a _Hippopotamus amphibius_.
+What is  _Democracy_?
 
-This sentence cites an article in the bibliography ([Author, 2014](https://example.com/articles/1)).
-
-This sentence cites another article ([Author, 2015](https://example.com/articles/2)).
+This sentence cites an article in the bibliography, from the Eurobarometer ([Eurobarometer, 2014](http://ec.europa.eu/public_opinion/archives/eb/eb81/eb81_first_en.pdf)).
+Trust in government is declining ([Pew Research Center, 2014](http://www.people-press.org/2014/11/13/public-trust-in-government/)).
 
 This paragraph has a DOI citation at the end, which supports this statement[👍](https://doi.org/10.1038/nature14388 "Cancer: Antibodies regulate antitumour immunity").
 
