@@ -6,5 +6,7 @@ title: "Dissatisfaction with Democracy"
 description: "Source: Eurobarometer, 2014"
 image: "data/diss_dem_eurobarometer2014.png"
 ---
-Click to Enlarge
+Press escape to exit
+
+<p>
 <img src="{{ site.baseurl }}/data/diss_dem_eurobarometer2014.png">
