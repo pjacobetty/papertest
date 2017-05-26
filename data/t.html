@@ -1,19 +1,8 @@
-<!doctype html>
-<html>
-
-<head>
-    <title>Horizontal Bar Chart</title>
-    <script src="http://www.chartjs.org/dist/2.6.0/Chart.bundle.js"></script>
-    <style>
-    canvas {
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-    }
-    </style>
-</head>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://www.chartjs.org/dist/2.6.0/Chart.bundle.js"></script>
 <body>
-<canvas id="myChart" width="15" height="15"></canvas>
+<canvas id="myChart" width="115" height="115"></canvas>
 <script>
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
@@ -53,6 +42,3 @@ var myChart = new Chart(ctx, {
     }
 });
 </script>
-
-</body>
-
