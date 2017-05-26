@@ -8,26 +8,15 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["BE",	"BG",	"CZ",	"DK",	"D-W",	"DE",
+                 "DE",	"EE",	"IE",	"EL",	"ES",	"FR",	"IT",
+                 "CY",	"LV",	"LT",	"LU",	"HU",	"MT",	"NL",	"AT",	"PL",
+                 "PT",	"RO",	"SI",	"SK",	"FI",	"SE",	"UK"],
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
+            data: [0.71,	0.95,	0.9,	0.19,	0.55,	0.57,	0.64,	0.72,	0.86,	0.98,	0.88,	
+                   0.71,	0.87,	0.97,	0.83,	0.89,	0.34,   0.96,	0.88,	0.34,	0.8,	0.67,	
+                   0.97,	0.96,	0.95,	0.78,	0.36,	0.43,	0.71],
             borderWidth: 1
         }]
     },
