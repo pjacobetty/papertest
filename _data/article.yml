@@ -30,7 +30,7 @@ affiliations:
     location: "Los Angeles, California"
     url: http://in3.uoc.edu
     members:
-      - *pjacbetty
+      - *mcastells
   - name: "Open University of Catalonia (UOC)"
     department: "Internet Interdisciplinary Institute (IN3)"
     location: "Barcelona, Spain"
