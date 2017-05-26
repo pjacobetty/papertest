@@ -36,7 +36,7 @@ affiliations:
     location: "Barcelona, Spain"
     url: http://in3.uoc.edu
     members:
-      - *pjacbetty
+      - *pjacobetty
       #- *bob-exemplar
 
   #- name: "Harvard University"
