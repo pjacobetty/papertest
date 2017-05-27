@@ -10,15 +10,10 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["BE", "BG", "CZ", "DK", "D-W", "DE",
-                 "DE", "EE", "IE", "EL", "ES", "FR", "IT",
-                 "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL",
-                 "PT", "RO", "SI", "SK", "FI", "SE", "UK"],
+        labels: ["BE", "BG", "CZ", "DK", "D-W", "DE", "DE", "EE", "IE", "EL", "ES", "FR", "IT", "CY", "LV", "LT", "LU", "HU", "MT", "NL", "AT", "PL", "PT", "RO", "SI", "SK", "FI", "SE", "UK"],
         datasets: [{
             label: '# of Votes',
-            data: [71, 95, 9, 19, 55, 57, 64, 72, 86, 98, 88,
-                   71, 87, 97, 83, 89, 34, 96, 88, 34, 8, 67,
-                   97, 96, 95, 78, 36, 43, 71],
+            data: [71, 95, 9, 19, 55, 57, 64, 72, 86, 98, 88, 71, 87, 97, 83, 89, 34, 96, 88, 34, 8, 67, 97, 96, 95, 78, 36, 43, 71],
 
             borderWidth: 1
         }]
