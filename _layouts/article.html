@@ -129,13 +129,6 @@
                 </div>
             {% endif %}
 
-            <!-- footer sections -->
-            {% for section in sections %}
-                {% if section.container == 'footer' %}
-                    {% include section.html %}
-                {% endif %}
-            {% endfor %}
-
             <!-- figures -->
             {% if site.figures %}
                 <div id="figures">
@@ -160,6 +153,14 @@
                     {% endfor %}
                 </div>
             {% endif %}
+            
+
+            <!-- footer sections -->
+            {% for section in sections %}
+                {% if section.container == 'footer' %}
+                    {% include section.html %}
+                {% endif %}
+            {% endfor %}
 
             <!-- references -->
             {% capture references %}{% include_relative references.md %}{% endcapture %}
