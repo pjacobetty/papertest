@@ -7,7 +7,13 @@ Democracy is changing in Europe.
 What is  _Democracy_?
 
 This sentence cites an article in the bibliography, from the Eurobarometer ([Eurobarometer, 2014](http://ec.europa.eu/public_opinion/archives/eb/eb81/eb81_first_en.pdf)).
-Trust in government is declining ([Pew Research Center, 2014](http://www.people-press.org/2014/11/13/public-trust-in-government/)).
+Trust in government is declining ([Pew Research Center, 2014](http://www.people-press.org/2014/11/13/public-trust-in-government/)). 
+
+**Test graph:**
+
+<iframe src="{{ site.baseurl }}/data/t.html" width="800" height="800" allowfullscreen></iframe> 
+
+
 
 This paragraph has a DOI citation at the end, which supports this statement[👍](https://doi.org/10.1038/nature14388 "Cancer: Antibodies regulate antitumour immunity").
 
