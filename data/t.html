@@ -7,6 +7,8 @@
 
 <script>    
 var ctx = document.getElementById("myChart").getContext('2d');
+ctx.canvas.width = 300;
+ctx.canvas.height = 300;
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -19,7 +21,6 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        maintainAspectRatio: false,
         scales: {
             yAxes: [{
                 ticks: {
