@@ -11,7 +11,7 @@ Trust in government is declining ([Pew Research Center, 2014](http://www.people-
 
 **Test graph:**
 
-<iframe src="{{ site.baseurl }}/data/t.html" width="800" height="800" allowfullscreen></iframe> 
+<iframe src="{{ site.baseurl }}/data/t.html" width="100" height="100" allowfullscreen></iframe> 
 
 
 
